@@ -69,7 +69,7 @@ cd spring-boot-async-virtual-threads
 ### 1. Run Async Tasks
 **Trigger background tasks asynchronously.**
 ```http
-GET /run-tasks
+GET /tasks/run
 ```
 #### Response:
 ```json
@@ -79,7 +79,7 @@ GET /run-tasks
 ### 2. Check Task Progress
 **Get the progress of running tasks.**
 ```http
-GET /progress
+GET /tasks/progress
 ```
 #### Example Response:
 ```json
